@@ -1,12 +1,3 @@
-# Homebrew formula for code-outline-graph-go
-#
-# To use this formula directly from this repo:
-#   brew tap rushikeshsakharleofficial/tap https://github.com/rushikeshsakharleofficial/homebrew-tap
-#   brew install code-outline-graph-go
-#
-# This file is auto-updated by GoReleaser on each release (via homebrew-tap repo).
-# Manual template for reference — actual checksums filled by goreleaser.
-
 class CodeOutlineGraphGo < Formula
   desc "Go code indexing and search MCP server — tree-sitter symbols over SQLite FTS5"
   homepage "https://github.com/rushikeshsakharleofficial/gocode-outline-graph"
@@ -15,23 +6,23 @@ class CodeOutlineGraphGo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v#{version}/code-outline-graph-go_#{version}_darwin_arm64.tar.gz"
-      # sha256 filled by goreleaser
+      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v1.1.0/code-outline-graph-go_1.1.0_darwin_arm64.tar.gz"
+      sha256 "15b083fe8f67abf7279f9ba60245d643a0570853087df1ac57235f8ded828c3a"
     end
     on_intel do
-      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v#{version}/code-outline-graph-go_#{version}_darwin_amd64.tar.gz"
-      # sha256 filled by goreleaser
+      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v1.1.0/code-outline-graph-go_1.1.0_darwin_amd64.tar.gz"
+      sha256 "282c814d50141b95fae022446271689f46de3d080e564149a62007225b53f5d6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v#{version}/code-outline-graph-go_#{version}_linux_arm64.tar.gz"
-      # sha256 filled by goreleaser
+      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v1.1.0/code-outline-graph-go_1.1.0_linux_arm64.tar.gz"
+      sha256 "c1622263732a4a291160332b236381a2cda5efdc213414ffdd7f53ac3507d719"
     end
     on_intel do
-      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v#{version}/code-outline-graph-go_#{version}_linux_amd64.tar.gz"
-      # sha256 filled by goreleaser
+      url "https://github.com/rushikeshsakharleofficial/gocode-outline-graph/releases/download/v1.1.0/code-outline-graph-go_1.1.0_linux_amd64.tar.gz"
+      sha256 "ebc23a371dd03c279ebd137f3386f42e82dc562d145a30228b61ed0e080027ac"
     end
   end
 
